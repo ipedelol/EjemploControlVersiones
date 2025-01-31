@@ -1,6 +1,6 @@
 ---
 title: "Areas"
-author: "Iker Pérez"
+author: "Iker Pérez del Olmo"
 date: "2025-01-31"
 output: html_document
 ---
@@ -15,4 +15,11 @@ knitr::opts_chunk$set(echo = TRUE)
 ```{r}
 r<-0.5
 area<-pi*r^2
+```
+## R Area Cuadrado
+
+
+```{r}
+lado<-3
+area.cuadrado<-lado^2
 ```
